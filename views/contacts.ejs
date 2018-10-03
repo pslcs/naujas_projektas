@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Contact me</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/style.css" />
+</head>
+<body>
+    <%- include('partials/navbar') %>
+    <h1>Pakontaktuok mane</h1>
+    <form method="POST" action="/contacts" class="kontaktuok">
+        <input name="vardas" class="input vardas" type="text" placeholder="Tavo vardas">
+        <input name="pastas" class="input pavarde" type="text" placeholder="Kaip man su tavimi susisiekti?">
+        <textarea name="zinute" class="input zinute" placeholder="Ką norėtum man pasakyti?"></textarea>
+        <button name="" class="mygtukas" type="submit">Pakontaktuoti</button>
+    </form>
+    <footer>
+    <%- include('partials/footer') %>
+    </footer>
+</body>
+</html>

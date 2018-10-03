@@ -1,0 +1,50 @@
+*{
+    margin: 0px auto;
+    text-align: center;
+    text-decoration: none;
+    color: greenyellow;
+}
+body{
+    background-color: rgb(238, 91, 115);
+    padding-top: 100px;
+}
+.navbar{
+    position: relative;
+    bottom: 90px;
+    box-align: center;
+    padding-top: 20px;
+}
+
+.footer{
+    bottom: 0px;
+    width: 100%;
+    padding: 0, 30%, 0, 30%;
+    height: 52px;
+    color: rgb(255, 0, 0);
+}
+.kontaktuok{
+    width: 400px;
+    min-height: 300px;
+    height: 500px;
+
+}
+.input{
+    margin: 20px;
+    width: 360px;
+    height: 30px;
+    color: black;
+    font-weight: bold;
+}
+.zinute{
+    height: 200px;
+    word-wrap: break-word;
+    line-height: 20px;
+    font-family: arial;
+}
+.mygtukas{
+    color: rgb(238, 91, 115);
+    background-color: greenyellow;
+    border: none;
+    height: 20px;
+    width: 120px;
+}

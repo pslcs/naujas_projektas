@@ -1,0 +1,21 @@
+{
+  "name": "kitas_projektas",
+  "version": "4.20.0",
+  "description": "lempa",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "express",
+    "json",
+    "JavaScript"
+  ],
+  "author": "Povilas Sulcas",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
